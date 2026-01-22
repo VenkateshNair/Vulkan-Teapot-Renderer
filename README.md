@@ -76,7 +76,7 @@ Check `VMNlog.txt` for initialization logs and validation messages.
 
 ## Screenshots
 
-[Add your scree![alt text](<Screenshot 2026-01-22 160405.png>) ![alt text](<Screenshot 2026-01-22 160348.png>) ![alt text](<Screenshot 2026-01-22 160335.png>) ![alt text](<Screenshot 2026-01-22 160305.png>) ![alt text](<Screenshot 2026-01-22 160453.png>)nshots here]
+![alt text](1.png) ![alt text](4.png) ![alt text](3.png) ![alt text](2.png)
 
 ## Author
 
