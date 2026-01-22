@@ -76,12 +76,12 @@ Check `VMNlog.txt` for initialization logs and validation messages.
 
 ## Screenshots
 
-![alt text](1.png) ![alt text](4.png) ![alt text](3.png) ![alt text](2.png)
+![alt text](1.png) ![alt text](2.png) ![alt text](3.png) ![alt text](4.png)
 
 ## Author
 
 **Venkatesh Nair**  
-nairvenky@gmail.com 
-https://www.linkedin.com/in/venkatesh-nair/
+Email: nairvenky@gmail.com    
+LinkedIn: https://www.linkedin.com/in/venkatesh-nair/
 
 
