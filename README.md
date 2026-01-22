@@ -76,15 +76,12 @@ Check `VMNlog.txt` for initialization logs and validation messages.
 
 ## Screenshots
 
-[Add your screenshots here]
+[Add your scree![alt text](<Screenshot 2026-01-22 160405.png>) ![alt text](<Screenshot 2026-01-22 160348.png>) ![alt text](<Screenshot 2026-01-22 160335.png>) ![alt text](<Screenshot 2026-01-22 160305.png>) ![alt text](<Screenshot 2026-01-22 160453.png>)nshots here]
 
 ## Author
 
-**[YOUR NAME]**  
-[Your Email/Website - Optional]  
-[LinkedIn/GitHub Profile - Optional]
-
-## License
-MIT License
+**Venkatesh Nair**  
+nairvenky@gmail.com 
+https://www.linkedin.com/in/venkatesh-nair/
 
 
