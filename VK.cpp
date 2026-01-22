@@ -5,10 +5,10 @@
 #include <stdlib.h>
 
 #define STB_IMAGE_IMPLEMENTATION
-#include"stb_image.h"
+#include"inc/stb_image.h"
 
-#include "VK.h"
-#include"Teapot.h"
+#include "inc/VK.h"
+#include"inc/Teapot.h"
 
 
 // vulkan related header files
@@ -731,7 +731,7 @@ VkResult initialize(void)
 	}
 
 
-	vkResult = createTexture("stone.png");
+	vkResult = createTexture("res/stone.png");
 	if (vkResult != VK_SUCCESS)
 	{
 		fprintf(gpFile, "%s initialize :: createTexture() is failed . \n", ERROR_LOG);
@@ -4690,7 +4690,7 @@ VkResult createShaders(void)
 
 	//code
 	// vertex-shader
-	const char* szFileName = "shader.vert.spv";
+	const char* szFileName = "shaders/shader.vert.spv";
 	FILE* fp = NULL;
 	size_t size;
 
@@ -4762,7 +4762,7 @@ VkResult createShaders(void)
 
 
 	// fragment-shader
-	szFileName = "shader.frag.spv";
+	szFileName = "shaders/shader.frag.spv";
 	fp = NULL;
 	size = 0;
 

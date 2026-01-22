@@ -8,5 +8,8 @@ rc.exe VK.rc
 
 link.exe VK.obj VK.res /LIBPATH:"C:\VulkanSDK\Vulkan\Lib" user32.lib gdi32.lib  /SUBSYSTEM:WINDOWS
 
+del VK.obj
+del VK.res 
+
 VK.exe
 
