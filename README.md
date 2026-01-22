@@ -1,7 +1,8 @@
-# Vulkan-Teapot-Renderer
- A 3D graphics application demonstrating Vulkan rendering with Per-Pixel Phong lighting and texture mapping on the Utah Teapot.
+# Vulkan Teapot Renderer
 
- 
+A 3D graphics application demonstrating Vulkan rendering with Per-Pixel Phong lighting and texture mapping on the Utah Teapot.
+
+
 ## Features
 
 - **Vulkan 1.3** graphics pipeline implementation
@@ -28,15 +29,18 @@
 
 ## Build & Run
 
-1. Install Vulkan SDK
-2. Clone the repository
-3. Open in Visual Studio
-4. Build and run
-
-**Required files in executable directory:**
-- `shader.vert.spv`
-- `shader.frag.spv`
-- `stone.png`
+1. **Install Vulkan SDK** from [LunarG](https://vulkan.lunarg.com/)
+2. **Clone the repository**
+3. **Compile shaders** (if not pre-compiled):
+   ```bash
+   glslc shaders/shader.vert -o shaders/shader.vert.spv
+   glslc shaders/shader.frag -o shaders/shader.frag.spv
+   ```
+4. **Ensure required files** are in the executable directory:
+   - `shaders/shader.vert.spv`
+   - `shaders/shader.frag.spv`
+   - `res/stone.png`
+5. **Build and run** from Visual Studio
 
 ## Controls
 
@@ -63,12 +67,12 @@ Command Buffers → Render Loop (Acquire → Submit → Present)
 ## Project Structure
 
 - `VK.cpp` - Main application and Vulkan setup
-- `VK.h` - Header file
-- `Teapot.h` - Geometry data
-- `shader.vert` / `shader.frag` - GLSL shaders (source)
-- `shader.vert.spv` / `shader.frag.spv` - Compiled SPIR-V shaders
-- `stone.png` - Texture asset
-- `stb_image.h` - Image loading library
+- `inc/VK.h` - Header file
+- `inc/Teapot.h` - Geometry data
+- `shaders/shader.vert` / `shaders/shader.frag` - GLSL shaders (source)
+- `shaders/shader.vert.spv` / `shaders/shader.frag.spv` - Compiled SPIR-V shaders
+- `res/stone.png` - Texture asset
+- `inc/stb_image.h` - Image loading library
 
 ## Debug
 
@@ -81,7 +85,7 @@ Check `VMNlog.txt` for initialization logs and validation messages.
 ## Author
 
 **Venkatesh Nair**  
-Email: nairvenky@gmail.com    
+Email: nairvenky@gmail.com
 LinkedIn: https://www.linkedin.com/in/venkatesh-nair/
 
 
